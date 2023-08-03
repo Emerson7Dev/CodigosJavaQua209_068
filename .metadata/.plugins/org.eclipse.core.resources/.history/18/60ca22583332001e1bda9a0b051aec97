@@ -1,0 +1,43 @@
+package principal;
+
+import java.util.Scanner;
+
+public class EntradaDeDados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner leia = new Scanner(System.in);
+	    final double PI = 3.1415;
+		String nome; 
+		int idade;
+		
+		System.out.println("Por favor, digite seu nome");
+		//leitura de dados tipo string (conjunto de caracteres)
+		nome = leia.nextLine();
+		
+		System.out.println("digite a sua idade:");
+		idade = leia.nextInt();
+		
+		System.out.println("Onome digitado foi:" + nome);
+		System.out.println("A idade digitado foi:" + idade);
+		
+		
+		
+		
+		leia.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

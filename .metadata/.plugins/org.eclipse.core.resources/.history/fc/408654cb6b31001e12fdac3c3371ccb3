@@ -1,0 +1,33 @@
+package principal;
+
+public class variaveis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         int numero = 10;
+		//numero = 10;
+		double decimal = 10.50;
+		 int testenumero= (int) 50.25;
+				 double testeNovoNumero = 10;
+				 //aspas duplas para strings
+				 string nome ="Emerson Almeida";
+				 //aspas simples para char 
+	              char sexo ='m'
+	        	//booleanos = valores verdadeiros ou falsos
+	             boolean verdadeiro = true;
+	              boolean falso = false;
+	        		   
+	        		   
+	        		   
+	        		   
+		System.out.println(sexo);
+		System.out.println(nome);
+		System.out.println(verdadeiro);
+		System.out.println(falso);
+		
+		
+		
+		
+	}
+
+}
